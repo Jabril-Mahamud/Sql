@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Sql": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7018"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "DockerfileRunArguments": "--init",
+      "httpPort": 32651,
+      "useSSL": false
+    }
+  }
+}
