@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql.Service;
-
-public class Class
-{
-
+public class TextToSpeechRequest
+{       
+    public string Text { get; set; }
 }
