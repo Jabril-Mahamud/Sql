@@ -22,7 +22,7 @@ public class HttpFunction
     }
 
     [Function("HttpFunction")]
-    public async Task<IActionResult> RunAsync([HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequestData req)
+    public async Task<IActionResult> RunAsync([HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequestData req)
     {
         _logger.LogInformation("C# HTTP trigger function processed a request.");
 
