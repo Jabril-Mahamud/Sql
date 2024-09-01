@@ -1,10 +1,7 @@
-using System.Threading.Tasks;
-using Azure.Storage.Queues.Models;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 using Microsoft.Graph;
 using Newtonsoft.Json;
-using Sql.Interfaces;
 
 namespace Sql.Functions
 {

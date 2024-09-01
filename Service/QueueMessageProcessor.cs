@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using Azure.Storage.Queues.Models;
+﻿using Azure.Storage.Queues.Models;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Sql.Interfaces;
