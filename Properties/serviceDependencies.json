@@ -25,6 +25,11 @@
     "appInsights1": {
       "type": "appInsights",
       "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage4": {
+      "type": "storage",
+      "connectionId": "Qstring",
+      "dynamicId": null
     }
   }
 }

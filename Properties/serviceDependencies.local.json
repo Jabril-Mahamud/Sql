@@ -33,6 +33,14 @@
       "type": "storage.azure",
       "connectionId": "QString",
       "dynamicId": null
+    },
+    "storage4": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ServiceLinker/locations/uksouth/connectors/Qstring_101D28AA35",
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/11labsstorage",
+      "type": "storage.azure",
+      "connectionId": "Qstring",
+      "dynamicId": null
     }
   }
 }
