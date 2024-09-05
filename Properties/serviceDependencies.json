@@ -18,6 +18,11 @@
       "connectionId": "QString",
       "dynamicId": null
     },
+    "storage4": {
+      "type": "storage",
+      "connectionId": "Qstring",
+      "dynamicId": null
+    },
     "storage1": {
       "type": "storage",
       "connectionId": "AzureWebJobsStorage"
@@ -25,11 +30,6 @@
     "appInsights1": {
       "type": "appInsights",
       "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
-    },
-    "storage4": {
-      "type": "storage",
-      "connectionId": "Qstring",
-      "dynamicId": null
     }
   }
 }
